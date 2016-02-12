@@ -1,0 +1,10 @@
+1. Add the tool chain to your path; ie export PATH=$PATH:~gcc/gcc-arm-none-eabi-4_9-2015q3/bin$
+2. All examples, i.e apps are in the apps/ directory
+
+building an application
+cd app/helloworld
+
+make
+
+3. The make file will create an obj directory with all of the objs for the project and elf, and bin in the current directory.
+4. make clean will delete everything. 
